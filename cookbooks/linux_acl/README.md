@@ -1,22 +1,31 @@
 # linux_acl-cookbook
 
-TODO: Enter the cookbook description here.
+Cookbook for creating application users along with their home_dir..
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+Any Linux Platform
 
 ## Attributes
 
 <table>
   <tr>
+    <th>Env</th>
     <th>Key</th>
     <th>Type</th>
     <th>Description</th>
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['linux_acl']['bacon']</tt></td>
+    <td><tt>Prod</tt></td>
+    <td><tt>['linux_acl_prod']</tt></td>
+    <td>Boolean</td>
+    <td>whether to include bacon</td>
+    <td><tt>true</tt></td>
+  </tr>
+  <tr>
+    <td><tt>Dev</tt></td>
+    <td><tt>['linux_acl_dev']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -39,4 +48,4 @@ Include `linux_acl` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: Trijit Acharyya Chowdhury (<YOUR_EMAIL>)
